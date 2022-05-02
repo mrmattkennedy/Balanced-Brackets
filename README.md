@@ -11,7 +11,7 @@ The balanced bracket problem is one where the user is tasked with check if brack
 Below are 4 approaches, with a brief explanation on each, the advantages and disadvantages, and what the average time was for 10 runs using that method. Testing data conists of 100,000 strings of up to 1,000 characters.
 
 ### [Standard if-else](https://github.com/mrmattkennedy/Balanced-Brackets/blob/main/src/Balancers.java#L29)
-This method is the simplest to understand and the easiest to write. It first creates a Stack data structure to keep track of opening parentheses, then beings looping over each character.
+This method is the simplest to understand and the easiest to write. It first creates a Stack data structure to keep track of opening parentheses, then begins looping over each character.
 
 For each character in the string, it checks if the character is an opening parenthesis or bracket. If it is, it is stored in the stack.
 
