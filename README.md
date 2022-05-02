@@ -55,7 +55,7 @@ Although this method is 2x as fast as the prior hash map approach, it is still n
 **Average timing of 10 runs**: 963ms
 
 
-### [If-else, no stack](https://github.com/mrmattkennedy/Balanced-Brackets/blob/main/src/Balancers.java#L165)
+### [If-else, no stack](https://github.com/mrmattkennedy/Balanced-Brackets/blob/main/src/Balancers.java#L155)
 Lastly, we have the fastest method, and likely the hardest to read, write, and understand. Instead of using a stack and a hash map, here we use a basic array with an integer to point to the end of the currently-used elements. This array pointer is the variable `currentEndIdx`.
 
 As we loop over each character, if an opening is found, we add it to the array and increment the array pointer by 1. If it wasn't an opening character, we check if the array pointer is 0, and return false if it is.
