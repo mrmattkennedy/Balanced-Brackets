@@ -174,7 +174,7 @@ public class Balancers {
             	return "false";
             
             //If char is ), ], or }, check what prior item is on stack to verify balanced brackets
-            if (c == ')' || c == ']' || c == '}') {
+            else if (c == ')' || c == ']' || c == '}') {
                     
                 char mostRecentOpen = balancer[currentEndIdx - 1];
                 
